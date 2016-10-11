@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>287</width>
+    <height>558</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>82</red>
+        <green>76</green>
+        <blue>219</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>82</red>
+        <green>76</green>
+        <blue>219</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>161</red>
+        <green>160</green>
+        <blue>159</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Candy</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>0</y>
+      <width>281</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <widget class="QGraphicsView" name="graphicsView">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>55</width>
+       <height>55</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="username">
+     <property name="geometry">
+      <rect>
+       <x>82</x>
+       <y>1</y>
+       <width>45</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>用户名</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="usernick">
+     <property name="geometry">
+      <rect>
+       <x>83</x>
+       <y>32</y>
+       <width>30</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>昵称</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>90</y>
+      <width>281</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ceee&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>好友</string>
+     </attribute>
+     <widget class="QListWidget" name="friendlistWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>281</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>好友1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友4</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友6</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友7</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友8</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友9</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友10</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友11</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友12</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友13</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友14</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友15</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友16</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友17</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友18</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友19</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友20</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友21</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友22</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友23</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>好友24</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>群组</string>
+     </attribute>
+     <widget class="QListWidget" name="grouplistWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>277</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>群组1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>群组2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>群组3</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>公众号</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="setting">
+    <property name="geometry">
+     <rect>
+      <x>7</x>
+      <y>514</y>
+      <width>51</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> 设置</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>65</y>
+      <width>240</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>243</x>
+      <y>65</y>
+      <width>41</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查找</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
